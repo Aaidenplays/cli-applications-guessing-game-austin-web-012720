@@ -1,5 +1,4 @@
 # Code your solution here!
-
 def generate_random_number
   rand(1..6)
 end
@@ -11,7 +10,6 @@ end
 def user_input
   gets.chomp
 end
-
 
 def run_guessing_game
   hidden_number = generate_random_number
