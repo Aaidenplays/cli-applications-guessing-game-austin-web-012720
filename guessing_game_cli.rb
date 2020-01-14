@@ -24,6 +24,6 @@ def run_guessing_game
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{hidden_number}"
-  end
+  
   end
 end
