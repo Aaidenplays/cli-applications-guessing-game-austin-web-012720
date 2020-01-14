@@ -15,9 +15,9 @@ end
 def run_guessing_game
   hidden_number = generate_random_number
   prompt_user
-  
+    binding.pry
+
   users_guess = user_input
-  binding.pry
   if users_guess == hidden_number
     puts "You guessed the correct number!"
   elsif users_guess == "exit"
