@@ -13,9 +13,9 @@ def user_input
 end
 
 def run_guessing_game
-  
+        binding.pry
+
   hidden_number = generate_random_number
-      binding.pry
 
   prompt_user
 
