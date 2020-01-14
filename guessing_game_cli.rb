@@ -1,7 +1,7 @@
 require 'pry'
 # Code your solution here!
 def generate_random_number
-  rand(1..6)
+  rand(1..6) + 1
 end
 
 def prompt_user
