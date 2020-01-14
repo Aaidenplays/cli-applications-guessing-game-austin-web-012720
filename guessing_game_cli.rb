@@ -24,5 +24,4 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{hidden_number}"
   end
-  
 end
