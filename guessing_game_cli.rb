@@ -16,7 +16,7 @@ def run_guessing_game
   hidden_number = generate_random_number
   prompt_user
   users_guess = user_input
-
+binding.pry
   if users_guess == hidden_number
     puts "You guessed the correct number!"
   elsif users_guess == "exit"
@@ -24,5 +24,5 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{hidden_number}"
   end
-  binding.pry
+  
 end
