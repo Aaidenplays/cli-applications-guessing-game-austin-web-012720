@@ -14,7 +14,7 @@ end
 
 def run_guessing_game
   hidden_number = generate_random_number
-  prompt_user
+  #prompt_user
   users_guess = user_input
  # binding.pry
   if users_guess == hidden_number
