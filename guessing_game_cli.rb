@@ -9,7 +9,7 @@ def prompt_user
 end
 
 def user_input
-  gets
+  gets.chomp
 end
 
 
